@@ -1,0 +1,31 @@
+version: '3.8'
+
+services:
+
+  backend:
+    image: ghcr.io/mrmo7ox/frontendhr:latest
+    build:
+      context: ./backend
+      dockerfile: Dockerfile
+    container_name: backend-ai
+    expose:
+      - "8000"
+    restart: unless-stopped
+    networks:
+      - app-network
+
+  frontend:
+    image: ghcr.io/mrmo7ox/frontendhr:latest
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    container_name: frontend-ai
+    expose:
+      - "3000"
+    restart: unless-stopped
+    networks:
+      - app-network
+
+networks:
+  app-network:
+    driver: bridge
