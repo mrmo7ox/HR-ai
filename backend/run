@@ -1,9 +1,11 @@
 
 
 
-
+if [ -z $1 ];then
+    python3 venv env
+    pip install -r requirements.txt
+fi
 
 source ./env/bin/activate
-
 python3 ./app.py
 
