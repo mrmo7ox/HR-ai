@@ -55,13 +55,32 @@ def resume_screen():
 
 @api.route('/candidate_priority/predict', methods=['POST'])
 def candidate_priority():
-   data = request.get_json()  # JSON input
-   df = pd.DataFrame([data])  # wrap single row in DataFrame
+   data = request.get_json()
 
-   # Predict directly with the model (model handles preprocessing)
-   prediction = candidate_model.predict(df)
+   years_exp_band = data.get("years_exp_band", "").strip()
+   skills_coverage_band = data.get("skills_coverage_band", "").strip().capitalize()
+   referral_flag = int(data.get("referral_flag", 0))
+   english_level = data.get("english_level", "").strip().upper()
+   location_match = data.get("location_match", "").strip().title()
 
-   return jsonify({"priority": prediction[0]})
+   years_map = {"0-1": 0, "1-3": 1, "3-6": 2, "6+": 3}
+   skills_map = {"Low": 0, "Medium": 1, "High": 2}
+   english_map = {"A1": 0, "A2": 1, "B1": 2, "B2": 3, "C1": 4, "C2": 5}
+   location_map = {"Remote": 0, "Remoteok": 1, "Local": 2}
+
+   features = pd.DataFrame([{
+      "years_exp_band": years_map.get(years_exp_band, 0),
+      "skills_coverage_band": skills_map.get(skills_coverage_band, 0),
+      "referral_flag": referral_flag,
+      "english_level": english_map.get(english_level, 0),
+      "location_match": location_map.get(location_match, 0)
+   }])
+
+   prediction = candidate_model.predict(features)[0]
+
+   return jsonify({
+      "predicted_priority": prediction
+   })
 
 app.register_blueprint(api, url_prefix='/api')
 
