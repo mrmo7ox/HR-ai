@@ -1,0 +1,201 @@
+id,years_exp_band,skills_coverage_band,referral_flag,english_level,location_match,priority
+CPD0000,3-6,Medium,0,,Local,Med
+CPD0001,3-6,low,0,  A2  ,RemoteOK,Low
+CPD0002,0-1,  Low  ,1,  B2  ,RemoteOK,Low
+CPD0003,1-3,Medium,0 ,C1,  RemoteOK  ,Med
+CPD0004,1-3,High,0,B2,Local,High
+CPD0005,0-1,High,0,B1,relocate,Low
+CPD0006,1-3,High,,C1,Local,High
+CPD0007,3-6,Medium,0,B2,RemoteOK,Med
+CPD0008,3-6,high,0,C1,Local,High
+CPD0009,3-6,Low,0,B1,Local,Med
+CPD0010,3-6,Medium,0,B2,Local, high 
+CPD0011,  3-6  ,  Medium  ,0 ,B2,  RemoteOK  ,Med
+CPD0012,  1-3  ,Medium,1,B2,RemoteOK,Med
+CPD0013,3-6,Low,,B1,,Med
+CPD0014,3-6,Medium,1,B2,Local,High
+CPD0015,,medium,0,B1,Relocate,Low
+CPD0016,3–6,Medium,1,C1,,High
+CPD0017,3-6,  Low  ,0,,Local,Med
+CPD0018,3-6,  Medium  ,0,B1,Relocate,Med
+CPD0019,3-6,,0,B2,Local,High
+CPD0020,6+,Medium,0,B2,RemoteOK,High
+CPD0021,1-3,High,0 ,  C1  ,Relocate,Med
+CPD0022,6+,Medium,0,B2,Local,High
+CPD0023,0-1,Low,0,B2,Local,Low
+CPD0024,6+,  Low  ,0,B2,Local,High
+CPD0025,3-6,Medium,1,A2,Local,High
+CPD0026,3-6,Medium,0,None,Relocate,Med
+CPD0027,6+,high,1,a2,RemoteOK,High
+CPD0028,  3-6  ,Medium,1,C1,  RemoteOK  ,High
+CPD0029,3-6,medium,0,A2,Local,Med
+CPD0030,1-3,High,0 ,C1,Local,High
+CPD0031,  6+  ,Medium,,b1,RemoteOK,Low
+CPD0032,1-3,Medium,0,b1,Local,Med
+CPD0033,0-1,Medium,0,B2,Local,Med
+CPD0034,6+,Medium,0,,,Med
+CPD0035,6+,Medium,0,b1,Local,High
+CPD0036,1–3,Low,0,B2,Relocate,Low
+CPD0037,3-6,High,0,C1,Local,High
+CPD0038,3-6,low,0,B2,Local,Med
+CPD0039,3-6,Low,0,C1,  Local  ,Med
+CPD0040,1-3,Low,0,a2,Local,Low
+CPD0041,1-3,,1 ,C1,Relocate,High
+CPD0042,  0-1  ,Low,0,B2,relocate,Low
+CPD0043,0-1,,0 ,B1,Local,Med
+CPD0044,1-3,Medium,,B2,Local,Med
+CPD0045,6+,,1,b2,local,High
+CPD0046,3-6,Medium,0,B2,RemoteOK,Med
+CPD0047,6+,Medium,0,A2,Local,High
+CPD0048,0-1,Medium,1,b2,  Local  ,Med
+CPD0049,0-1,High,0,B1,Local,Med
+CPD0050,3-6,,0,b1,RemoteOK,Med
+CPD0051,1-3,High,0,B2,Relocate,Med
+CPD0052,1-3,Low,1,B2,Relocate,Low
+CPD0053,3-6,Medium,0,B1,RemoteOK,Med
+CPD0054,3-6,Medium,,B2,Local,High
+CPD0055,0–1,Medium,1,C1,RemoteOK,Med
+CPD0056,3-6,High,1,C1,Local,High
+CPD0057,  1-3  ,Low,0,B1,RemoteOK,Low
+CPD0058,0-1,Medium,,  A2  ,,Low
+CPD0059,3-6,Low,1,B2,RemoteOK,Med
+CPD0060,0-1,Medium,1,B1,Local,Med
+CPD0061,3-6,Medium,0,B2,Local,High
+CPD0062,6+,High,0,B1,local,High
+CPD0063,1-3,High,0,A2,RemoteOK,Med
+CPD0064,6+,Low,1 ,C1,  Relocate  ,High
+CPD0065,1-3,Low,0,B2,  RemoteOK  ,Low
+CPD0066,  1-3  ,low,0,B2,remoteok,Low
+CPD0067,1–3,Medium,0,B1,RemoteOK,Med
+CPD0068,1-3,High,0,A2,Local,Med
+CPD0069,0-1,Medium,0,B2,Relocate,Low
+CPD0070,1-3,Medium,0,B2,Relocate,Low
+CPD0071,1-3,Low,1 ,C1,remoteok,Low
+CPD0072,0-1,,0,B2,Local,Med
+CPD0073,,Medium,1,,local,High
+CPD0074,1-3,medium,0,b1,RemoteOK,Med
+CPD0075,3-6,Medium,0,,Local,High
+CPD0076,,Medium,1,B2,Relocate,Med
+CPD0077,1-3,Low,0,B2,remoteok,Low
+CPD0078,1-3,Low,0,A2,local,Low
+CPD0079,3-6,Medium,0,B2,Local,High
+CPD0080,1-3,,0,B1,,Med
+CPD0081,  3-6  ,Medium,0 ,,Local,High
+CPD0082,1-3,Medium,0,B2,relocate,Low
+CPD0083,3-6,Low,0,b1,RemoteOK,Med
+CPD0084,,,0 ,B1,Relocate,High
+CPD0085,0-1,low,,  b1  ,Local,Low
+CPD0086,0-1,Low,0,  B1  ,Local,Med
+CPD0087,1–3,High,,b1,Local,Low
+CPD0088,1-3,Low,0,B1,remoteok,Low
+CPD0089,1-3,Medium,0,B1,Local,Med
+CPD0090,  3-6  ,Medium,0,B1,Local, med 
+CPD0091,3–6,Medium,0,B1,RemoteOK,Med
+CPD0092,1-3,High,1,B2,Local,High
+CPD0093,6+,Low,1,  B1  ,remoteok, high 
+CPD0094,6+,High,0 ,C1,Relocate,High
+CPD0095,1-3,  medium  ,1,,RemoteOK,High
+CPD0096,  3-6  ,high,0,A2,Local,High
+CPD0097,0-1,High,0,B1,Local,Med
+CPD0098,6+,Low,0,B2,Local,High
+CPD0099,6+,Low,0,C1,,High
+CPD0100,1-3,Medium,1,B1,Local,Low
+CPD0101,1-3,High,0,A2,Local,Med
+CPD0102,3-6,Medium,1,B2,Local,High
+CPD0103,1-3,Medium,0,B1,RemoteOK,Med
+CPD0104,3-6,  Low  ,0,B2,remoteok,Med
+CPD0105,1-3,Medium,0,B1,Local,Med
+CPD0106,1-3,Medium,1,C1,RemoteOK,High
+CPD0107,3-6,medium,0,C1,Local,High
+CPD0108,6+,  High  ,0,C1,Relocate,High
+CPD0109,1–3,Medium,0,B2,Local,Med
+CPD0110,6+,Low,0,b1,Local,Med
+CPD0111,0-1,High,1,A2,RemoteOK,Med
+CPD0112,0-1,Medium,1,B2,remoteok, med 
+CPD0113,3-6,Low,0,B2,Local,Low
+CPD0114,0-1,Medium,1,B1,Local,Med
+CPD0115,1-3,Medium,1,B1,Local,Med
+CPD0116,6+,Low,1,B1,Local,High
+CPD0117,1-3,Low,0,B2,Relocate,Low
+CPD0118,1-3,Low,0,B2,Local,Med
+CPD0119,0–1,High,0,B1,Local,High
+CPD0120,0-1,Low,0,B1,Local,Low
+CPD0121,0-1,Low,0,  C1  ,, low 
+CPD0122,1-3,Medium,1,  B1  ,RemoteOK,Med
+CPD0123,  6+  ,,0,A2,Local,High
+CPD0124,,  Medium  ,1,  B2  ,Relocate,Low
+CPD0125,3-6,Low,0,B2,Local,Med
+CPD0126,3-6,High,0,B1,RemoteOK, high 
+CPD0127,1-3,Medium,0,C1,Local,Med
+CPD0128,  3-6  ,Medium,0,B2,Local,High
+CPD0129,3-6,Medium,0,B1,Relocate,High
+CPD0130,1-3,High,,C1,  Local  ,High
+CPD0131,1-3,Medium,1,,Local,High
+CPD0132,3-6,High,0,C1,Local,High
+CPD0133,0-1,Low,0,  B1  ,Local,Low
+CPD0134,3-6,,0,B2,remoteok,Med
+CPD0135,3-6,Medium,0,B1,Local, med 
+CPD0136,1-3,Medium,0,B2,RemoteOK,Med
+CPD0137,1-3,High,0,B2,RemoteOK,Med
+CPD0138,3-6,Low,0,,Local,Med
+CPD0139,3-6,Low,0,B2,Local,Med
+CPD0140,6+,Medium,0,B2,local,Med
+CPD0141,3-6,Low,0,B2,remoteok,Med
+CPD0142,3-6,Medium,0,B2,Local,High
+CPD0143,1-3,  Medium  ,0,B2,RemoteOK,Med
+CPD0144,3-6,Medium,1 ,B2,remoteok,High
+CPD0145,0–1,Medium,1,B2,Local,Med
+CPD0146,0-1,Medium,0,  B1  ,RemoteOK,Low
+CPD0147,  1-3  ,,1 ,B2,,High
+CPD0148,3-6,Medium,0,A2,RemoteOK, med 
+CPD0149,6+,High,0,B2,remoteok,High
+CPD0150,,Medium,0,  A2  ,RemoteOK,Low
+CPD0151,3-6,Medium,0,B1,,Med
+CPD0152,1-3,  Medium  ,0,B2,Local,Med
+CPD0153,1-3,  Low  ,1,A2,RemoteOK,Low
+CPD0154,6+,Low,,A2,Local,Med
+CPD0155,3–6,Low,0,C1,Local, med 
+CPD0156,0-1,Medium,0,B2,RemoteOK,Low
+CPD0157,1-3,Medium,0,A2,RemoteOK,Low
+CPD0158,1-3,medium,1,B2,Relocate,Med
+CPD0159,1-3,Medium,0,B2,RemoteOK,Med
+CPD0160,,Medium,0,B2,Local,High
+CPD0161,1-3,Medium,0,,Local,Med
+CPD0162,0–1,Medium,0,A2,Local,Low
+CPD0163,3-6,,1,B1,RemoteOK,High
+CPD0164,,High,0,B2,RemoteOK,Med
+CPD0165,1-3,  High  ,1,B1,Local,High
+CPD0166,6+,Medium,1,B2,Local,High
+CPD0167,3-6,Low,0,A2,  Local  ,Med
+CPD0168,6+,Medium,0,None,RemoteOK,High
+CPD0169,1-3,Medium,0,B1,Local,Med
+CPD0170,1–3,High,0,B2,RemoteOK,Med
+CPD0171,3-6,Low,0 ,B1,Local,Med
+CPD0172,  1-3  ,Medium,0,B2,RemoteOK,Med
+CPD0173,1-3,Medium,0 ,B1,,Med
+CPD0174,0-1,Medium,1,B2,relocate,Low
+CPD0175,0-1,High,0 ,B2,Local,Med
+CPD0176,6+,  Medium  ,0 ,B1,  Local  ,High
+CPD0177,3-6,Medium,,B1,RemoteOK,Med
+CPD0178,1-3,High,0,B1,Local,Med
+CPD0179,1-3,Low,,C1,remoteok,Med
+CPD0180,3-6,Low,0,C1,RemoteOK,Med
+CPD0181,1-3,Medium,0,C1,  Local  ,Med
+CPD0182,1-3,High,1 ,B2,Local,High
+CPD0183,6+,Medium,0,B1,RemoteOK,High
+CPD0184,,Medium,1,B2,RemoteOK,High
+CPD0185,3-6,Medium,0,B2,Local,Med
+CPD0186,  1-3  ,Medium,0,B1,Local,High
+CPD0187,0–1,High,0,  B2  ,  Local  ,Med
+CPD0188,None,Low,1,B2,Local, high 
+CPD0189,,Medium,0,B2,,Med
+CPD0190,1–3,Medium,0 ,B2,,High
+CPD0191,3-6,  High  ,1,B2,Local,High
+CPD0192,6+,Medium,1,  C1  ,Local,High
+CPD0193,,low,0,B2,Local,Med
+CPD0194,3–6,  High  ,0,A2,Local,High
+CPD0195,1-3,High,0,B1,Local,Med
+CPD0196,6+,high,0,B1,Relocate,High
+CPD0197,0-1,Medium,1,C1,RemoteOK, med 
+CPD0198,1-3,High,0,  A2  ,RemoteOK,Med
+CPD0199,1-3,Low,0,C1,Local,Med
