@@ -7,6 +7,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score, classification_report
 from scipy.sparse import hstack
 import joblib
+import os 
 
 def main():
     df = pd.read_csv("job_fit_cleaned.csv")
@@ -97,11 +98,15 @@ def main():
     accuracy = accuracy_score(y_test, y_pred)
 
     print(f"Accuracy: {accuracy}")
+    models_dir = "../models/Agents"
+    os.makedirs(models_dir, exist_ok=True)
     
-    joblib.dump(final_model, "job_fit_model.pkl")
-    joblib.dump(tfidf, "tfidf_vectorizer.pkl")
-    joblib.dump(scaler, "feature_scaler.pkl")
-    joblib.dump(numeric_features, "feature_names.pkl")
+    joblib.dump(final_model, os.path.join(models_dir, "job_fit_model.pkl"))
+    joblib.dump(tfidf, os.path.join(models_dir, "tfidf_vectorizer.pkl"))
+    joblib.dump(scaler, os.path.join(models_dir, "feature_scaler.pkl"))
+    joblib.dump(numeric_features, os.path.join(models_dir, "feature_names.pkl"))
+    
+    print(f"✅ Models saved to {models_dir}")
     
     return final_model, tfidf, scaler
 
