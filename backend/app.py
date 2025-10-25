@@ -41,7 +41,6 @@ def salary():
       'level_encoded': level_encoded
    }])
 
-
    prediction = model.predict(features)[0]
    return jsonify({'predicted_salary_mad': round(prediction, 2)})
 
